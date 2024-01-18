@@ -85,5 +85,3 @@ def solve_puzzle(p, q, z):
     for _ in range(z):
         result = find_x(p, q)
         print(result)
-
-solve_puzzle(100, 10, 10)
